@@ -1,0 +1,24 @@
+Soil Classification Model Evaluation Report
+==================================================
+
+Validation Accuracy: 21.79%
+Validation Loss: 8.5286
+
+Detailed Classification Report:
+               precision    recall  f1-score   support
+
+Alluvial_Soil       0.00      0.00      0.00        10
+    Arid_Soil       0.00      0.00      0.00        56
+   Black_Soil       0.22      1.00      0.36        51
+Laterite_Soil       0.00      0.00      0.00        43
+Mountain_Soil       0.00      0.00      0.00        40
+     Red_Soil       0.00      0.00      0.00        21
+  Yellow_Soil       0.00      0.00      0.00        13
+
+     accuracy                           0.22       234
+    macro avg       0.03      0.14      0.05       234
+ weighted avg       0.05      0.22      0.08       234
+
+
+Confusion Matrix saved at:
+D:\Crop_Recommendation_ML\results\confusion_matrix.png
